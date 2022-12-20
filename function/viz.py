@@ -7,7 +7,7 @@ import seaborn as sns
 ## 1. 대시보드에 각 데이터 항목별로 시각화
 
 # 캡스톤 프로젝트 설문 자료 불러오기
-job = pd.read_excel('캡스톤_설문_final.xlsx')
+job = pd.read_excel('캡스톤_data_final.xlsx')
 
 
 # 전공만족도에 따른 전공학점 scatter 그래프로 시각화
@@ -31,7 +31,7 @@ plt.show()  # 그래프 출력
 
 
 # 데이터셋 불러오기
-survey_result = pd.read_excel("캡스톤_설문_final.xlsx", sheet_name="설문응답")
+survey_result = pd.read_excel("캡스톤_data_final.xlsx", sheet_name="설문응답")
 # survey_result_df1 = survey_result[['major_satisfaction', 'major_grade']]
 
 # 한글 글씨 깨짐 해결
