@@ -44,7 +44,7 @@
 
 **구조** : collect (데이터 수집), preprocessing(시각화를 위한 데이터 틀 만들기), viz(데이터 시각화) branch를 만들고 각각의 branch의 function파일을 만들어 코드를 구성했습니다.
 
-Collect.py에서는 크롤링을 통해 네이버 뉴스에서 사용자가 지정한 키워드에 해당하는 뉴스를 사용자가 원하는 개수만큼, 제목과 URL을 엑셀 파일로 output 해줍니다. 엑셀 파일의 제목에는 크롤링을 실행한 시간에 대한 정보 또한 표시됩니다. 
+collect.py에서는 크롤링을 통해 네이버 뉴스에서 사용자가 지정한 키워드에 해당하는 뉴스를 사용자가 원하는 개수만큼, 제목과 URL을 엑셀 파일로 output 해줍니다. 엑셀 파일의 제목에는 크롤링을 실행한 시간에 대한 정보 또한 표시됩니다. 
 크롤링을 실행하는 소스는 네이버 뉴스이며 사용자의 input은 원하는 검색어, 원하는 기사의 개수이며 Python의 Requests와 BeautifulSoup 툴을 이용합니다.
 코드의 첫 부분에서 필요한 패키지들을 import 해줍니다. 사용하는 툴은 Requests와 BeautifulSoup으로 Requests에는 request를 보내 웹 페이지 소스를 받고 BeautifulSoup에는 웹 페이지 소스를 parsing하여 원하는 정보를 찾습니다.
 output으로 엑셀을 저장할 때 크롤링한 현재 날짜와 시간을 파일명에 넣기 위해 date변수를 활용합니다.
