@@ -199,4 +199,5 @@ service_df3 = round((service_df2.div(sum) * 100), 2)
 # 백분율 컬럼값을 기존 데이터프레임에 추가
 service_df4 = pd.concat([service_df['취업자(2021.2/2) (천명)'], service_df3], axis=1, join='inner')
 service_df4.columns = ['취업자(2021.2/2) (천명)', '취업자(2021.2/2) (백분율)']
+
 print(service_df4)
