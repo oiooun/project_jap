@@ -18,7 +18,7 @@ plt.scatter(x, y)              # scatter 그래프
 plt.show()                     # 그래프 출력
 
 # # 두 등급으로 구분된 데이터 프레임 만들기
-job['employment'] = [1 if i >= 2 else 0 for i in job['employment_status']]   # 취업 상태를 기준으로 한 class column 생성
+job['employment'] = [1 if i >= 2 else 0 for i in job['employment_status']]   # 취업 상태를 기준으로 한 class column 생성 (employment_status가 1일때 취업한 상태, 2일때 취업 안한 상태)
 print(job)
 
 # 두 등급으로 구분된 설문 데이터 항목 간의 pair plot
