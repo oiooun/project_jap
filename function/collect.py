@@ -32,7 +32,7 @@ cur_page = 1  # cur_page : 네이버 뉴스의 웹 페이지
 print()
 print('크롤링 중...')
 
-# HTML 코드에서 원하는 정보 탐색
+# HTML 코드에서 태그를 이용하여 원하는 정보 탐색
 while idx < news_num:
         table = soup.find('ul', {'class': 'list_news'})
     li_list = table.find_all('li', {'id': re.compile('sp_nws.*')})
