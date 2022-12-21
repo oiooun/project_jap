@@ -1,7 +1,4 @@
 import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # 데이터셋 불러오기
 employment_status_df = pd.read_excel("산업_전공계열별_취업자.xlsx", sheet_name="데이터")
