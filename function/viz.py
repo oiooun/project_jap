@@ -9,7 +9,6 @@ import seaborn as sns
 # 캡스톤 프로젝트 설문 자료 불러오기
 job = pd.read_excel('캡스톤_data_final.xlsx')
 
-
 # 전공만족도에 따른 전공학점 scatter 그래프로 시각화
 plt.figure(figsize=(13, 11))
 x = job['major_satisfaction']  # x축: 전공만족도
