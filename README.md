@@ -53,11 +53,12 @@ Collect.py에서는 크롤링을 통해 검색한 내용에 맞는 정보, 수�
 ## 발전시킨 내용
 
 캡스톤1에서는 설문 데이터를 이용하여 가설을 검증할 때 SPSS를 활용했다면, 이번에는 파이썬 강의에서 배운 라이브러리들을 활용하여 pair plot, heatmap 등 다양한 그래프로 시각화를 진행했습니다.      
-우선, 첫 번째로 설문 데이터를 각 항목별(univ_type, major_satisfcation, major_grade, job_confidence, univ_life_satisfaction, employment_status)로 pair plot 형식으로 나타내었고, 두 번째로는 데이터 column 간 연관도를 계산하는 함수를 이용하여 heatmap으로 표현했습니다. 
+우선, 첫 번째로 설문 데이터를 각 항목별(univ_type, major_satisfcation, major_grade, job_confidence, univ_life_satisfaction, employment_status)로 **pair plot** 형식으로 나타내었고, 두 번째로는 데이터 column 간 연관도를 계산하는 함수를 이용하여 **heatmap**으로 표현했습니다. 
 
-또한, 통계 데이터의 경우, 기존에는 엑셀의 툴을 사용하여 C.V 계수 셀을 삭제하는 작업만 했었던 반면, 이번에는 python의 pandas를 활용하여 각 산업별 직업군에 종사하는 사람들의 수를 비율로 환산하는 작업을 하였습니다. 이를 통해 각 산업별 취업 현황을 보다 명시적으로 나타낼 수 있게 되었습니다.
+또한, 통계 데이터의 경우, 기존에는 엑셀의 툴을 사용하여 C.V 계수 셀을 삭제하는 작업만 했었던 반면, 이번에는 python의 pandas를 활용하여 각 산업별 직업군에 종사하는 사람들의 수를 **비율로 환산**하는 작업을 하였습니다. 이를 통해 각 산업별 취업 현황을 보다 명시적으로 나타낼 수 있게 되었습니다.
 
 
+---------------
 
-4. 기타 특이사항
+## 기타 특이사항
 
